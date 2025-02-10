@@ -1,18 +1,18 @@
-# 🏛️ LangChain-Based Museum Chatbot
+#LangChain-Based Museum Chatbot
 
 Welcome to the **MuseuAI Chatbot**, a conversational AI designed to answer queries about museums using **LangChain** and **OllamaLLM**. This chatbot processes user input, maintains a conversation history, and provides intelligent responses.
 
-## 🚀 Features
+##  Features
 - Uses **LangChain** to structure prompts and manage conversation flow.
 - Powered by **OllamaLLM**, with support for models like **LLaMA3, Gemma2**, and more.
 - Retains conversation history for context-aware responses.
 - Simple command-line interface for easy interaction.
 
-## 📂 Project Structure
+##  Project Structure
 - `main.py` – The chatbot's core logic and conversation handling.
 - `requirements.txt` – Dependencies needed to run the chatbot.
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 ### 1️⃣ Install Dependencies
 Ensure you have **Python 3.8+** installed, then run:
@@ -31,12 +31,12 @@ cd your-repo
 python main.py
 ```
 
-## 💬 How to Use
+##  How to Use
 - Start the chatbot and ask any museum-related questions.
 - The bot maintains a conversation history for better responses.
 - Type **'exit'** to quit the chat.
 
-## 🏗️ Customization
+## Customization
 - Modify `model = OllamaLLM(model="llama3")` to use a different LLM.
 - Edit the `template` variable to adjust the chatbot’s prompt format.
 
